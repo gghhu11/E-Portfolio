@@ -2483,7 +2483,7 @@ textarea.form-control-lg {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-  -webkit-print-color-adjust: exact;
+      -webkit-print-color-adjust: exact;
           color-adjust: exact;
 }
 .form-check-input[type=checkbox] {
@@ -4894,6 +4894,12 @@ textarea.form-control-lg {
   vertical-align: baseline;
   border-radius: 0.25rem;
 }
+
+.badge-danger {
+  color: #fff;
+  background-color: #dc3545;
+}
+
 .badge:empty {
   display: none;
 }
@@ -7353,7 +7359,17 @@ textarea.form-control-lg {
   font-size: 50px;
 }
 
+
 .mb-0 {
+  margin-bottom: 0.25rem !important;
+}
+
+.mb-01 {
+  margin-bottom: 0 !important;
+  font-size: 40px;
+}
+
+.mb-01 {
   margin-bottom: 0.25rem !important;
 }
 
@@ -11325,6 +11341,13 @@ p.lead {
   font-size: 1.5rem;
 }
 
+.subheading2 {
+  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
 #sideNav {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -11525,9 +11548,9 @@ section.resume-section .resume-section-content {
 
 .right-side {
   position: absolute;
-  margin-left: 79px;
-  top: -170px;
-  float: left; /* Trying to detect something at my left */
+  margin-left: 20px;
+  top: -200px;
+  float: right; /* Trying to detect something at my left */
   height: 120%;
   width: 50%;
 }
@@ -11549,4 +11572,13 @@ section.resume-section .resume-section-content {
       -ms-animation: fadein 2s; /* Internet Explorer */
        -o-animation: fadein 2s; /* Opera < 12.1 */
           animation: fadein 2s;
+}
+
+h2 {
+  font-size: 6rem;
+  line-height: 5rem;
+}
+
+p {
+  padding: 2px;
 }
